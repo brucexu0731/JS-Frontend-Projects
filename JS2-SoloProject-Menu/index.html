@@ -1,0 +1,82 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link href="https://fonts.googleapis.com" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+       <!-- font-awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div id="header">
+            <h1 id="Jimmy-Diner"> Jimmy's Diner </h1>
+            <p id="the-best"> The best burgers and pizzas in town.</p>
+        </div>
+        <!-- containter that holds each item-->
+        <div id="menu-items">
+        </div>
+
+        <div id="your-order">
+            <div id="title">
+                Your order
+            </div>
+
+            <div id="order-items">
+
+            </div>
+
+            <hr id="checkout-hr">
+
+            <div class="total-price">
+                <p class="total"> Total price: </p>
+                <p class="price-number" id="total-price-number">$20</p>
+            </div>
+
+            <div id="complete-order">
+                Complete order
+            </div>
+
+            <div id="modal-overlay">
+                <div id="modal">
+                    <p id="modal-title"> Enter Card Details </p>
+                    <form id="payment-form">
+                        <input 
+                            type="text" 
+                            class="form-input"
+                            id="fullName" 
+                            name="fullName"
+                            placeholder="Enter your name"
+                            required>
+                        <input 
+                            type="text" 
+                            class="form-input"
+                            id="cardNumber" 
+                            name="cardNumber" 
+                            placeholder="Enter card number"
+                            pattern="[0-9]{16}"
+                            required>
+                        <input 
+                            type="text" 
+                            class="form-input"
+                            id="CVV" 
+                            name="CVV"
+                            placeholder="Enter CVV"
+                            pattern="[0-9]{3}"
+                            required>
+                        <button id="pay-btn" class="form-btn" type="submit"> Pay </button>
+                    </form>
+                    <button id="exit-btn" class="form-btn"> Back </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="order-on-its-way">
+            <p id="thank-you"></p>
+        </div>
+
+        
+
+	    <script src="index.js" type="module"></script>
+    </body>
+</html>
+
