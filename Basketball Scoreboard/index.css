@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score1 {
+    width: 200px;
+    background: black;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+}
+
+.score2 {
+    width: 200px;
+    background: black;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 30px;
+}
+
+.home-buttons {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guest-buttons {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background: #1B244A;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    
+    height: 45px;
+    width: 45px;
+    
+    box-sizing: border-box;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.reset {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#btn-reset{
+    border: 2px solid white;
+    border-radius: 5px;
+    background: #1B244A;
+    color: white;
+}
+
+
+
+
+
